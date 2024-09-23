@@ -1,0 +1,104 @@
+[v-cloak] { display: none; }
+.btn-brown {
+    background-color: #360808;
+    color: white;
+}
+
+.btn-brown:hover {
+    background-color: #4a0a0a;
+    color: white;
+}
+
+#fondo-cafe {
+    background-image: url("../img/fondo-cafe.jpg");
+}
+
+.bienvenido {
+    background-image: url(../img/bienvenido.png);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+}
+
+.drop_shadow {
+    filter: drop-shadow(0 0 25px rgba(230, 176, 77, 0.534));
+}
+
+.borde-rojo {
+    border: 2px solid #e60000;
+}
+
+.borde-marron{
+    border: 2px solid #F2B366;
+}
+
+.container {
+    max-width: 960px;
+}
+
+.bg-light-coffee {
+    background-color: #f7f3f0;
+}
+
+.text-brown {
+    color: #360808;
+}
+.text-brown-light{
+    color: #F2B366;
+}
+.text-light-coffee{
+    color: #f7f3f0;  
+}
+
+.b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+/* Modal backdrop */
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1050;
+}
+
+/* Centrar modal */
+.modal-dialog {
+    max-width: 500px;
+    margin: auto;
+    z-index: 1051; 
+}
+
+/* Estilo del contenido de la modal */
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); 
+    z-index: 1052; 
+}
+
+/* Ancho de contenido de agradecimiento */
+.content-modal-gracias {
+    width: 350px;
+}
+
+/* Estilo del botón de cerrar */
+.btn-close {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    line-height: 1;
+    cursor: pointer;
+}
